@@ -7,7 +7,50 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+@font-face {
+  font-family: 'Playfair-Display';
+  src: local('Playfair-Display-Bold'), url(./fonts/Playfair-Display/PlayfairDisplay-Bold.ttf) format('ttf');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Playfair-Display';
+  src: local('Playfair-Display-BoldItalic') url(./fonts/Playfair-Display/PlayfairDisplay-BoldItalic.ttf) format('ttf');
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Playfair-Display';
+  src: local('Playfair-Display-ExtraBold') url(./fonts/Playfair-Display/PlayfairDisplay-ExtraBold.ttf) format('ttf');
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Playfair-Display';
+  src: local('Playfair-Display-ExtraBoldItalic') url(./fonts/Playfair-Display/PlayfairDisplay-ExtraBoldItalic.ttf) format('ttf');
+  font-style: italic;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Source-Sans-Pro';
+  src: local('Source-Sans-Pro-Light'), url(./fonts/Source-Sans-Pro/SourceSansPro-Light.ttf) format('ttf');
+  font-style: normal;
+  font-weight: 300;
+}
+
+
+@font-face {
+  font-family: 'Source-Sans-Pro';
+  src: local('Source-Sans-Pro-Regular'), url(./fonts/Source-Sans-Pro/SourceSansPro-Regular.ttf) format('ttf');
+  font-style: normal;
+  font-weight: 400;
 }
