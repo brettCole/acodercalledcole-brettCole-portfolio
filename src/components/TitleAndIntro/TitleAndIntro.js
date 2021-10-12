@@ -1,7 +1,8 @@
 import React from 'react';
+import './TitleAndIntro.css';
 import {Col, Container, Row} from 'react-bootstrap';
 
-const TitleandIntro = () => {
+const TitleAndIntro = () => {
   return <Container fluid>
     <Row>
       <Col xs={1}><p>placeholder</p></Col>
@@ -25,4 +26,4 @@ const TitleandIntro = () => {
   </Container>;
 }
 
-export default TitleandIntro;
+export default TitleAndIntro;

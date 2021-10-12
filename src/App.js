@@ -1,10 +1,10 @@
 import './App.css';
-import TitleandIntro from './components/Title-and-Intro.js';
+import TitleAndIntro from './components/TitleAndIntro/TitleAndIntro.js';
 
 function App() {
   return (
     <div className="App">
-      <TitleandIntro />
+      <TitleAndIntro />
     </div>
   );
 }
