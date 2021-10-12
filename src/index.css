@@ -7,50 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
 @font-face {
-  font-family: 'Playfair-Display';
-  src: local('Playfair-Display-Bold'), url(./fonts/Playfair-Display/PlayfairDisplay-Bold.ttf) format('ttf');
+  font-family: 'PermanentMarker';
+  src: local('PermanentMarker'), url('./fonts/Permanent_Marker/PermanentMarker-Regular.ttf') format('truetype');
   font-style: normal;
-  font-weight: 700;
+  font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Playfair-Display';
-  src: local('Playfair-Display-BoldItalic') url(./fonts/Playfair-Display/PlayfairDisplay-BoldItalic.ttf) format('ttf');
-  font-style: italic;
-  font-weight: 700;
+  font-family: 'Brawler';
+  src: local('Brawler'), url(./fonts/Brawler/Brawler-Regular.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Playfair-Display';
-  src: local('Playfair-Display-ExtraBold') url(./fonts/Playfair-Display/PlayfairDisplay-ExtraBold.ttf) format('ttf');
-  font-style: normal;
-  font-weight: 800;
-}
-
-@font-face {
-  font-family: 'Playfair-Display';
-  src: local('Playfair-Display-ExtraBoldItalic') url(./fonts/Playfair-Display/PlayfairDisplay-ExtraBoldItalic.ttf) format('ttf');
-  font-style: italic;
-  font-weight: 800;
-}
-
-@font-face {
-  font-family: 'Source-Sans-Pro';
-  src: local('Source-Sans-Pro-Light'), url(./fonts/Source-Sans-Pro/SourceSansPro-Light.ttf) format('ttf');
-  font-style: normal;
-  font-weight: 300;
-}
-
-
-@font-face {
-  font-family: 'Source-Sans-Pro';
-  src: local('Source-Sans-Pro-Regular'), url(./fonts/Source-Sans-Pro/SourceSansPro-Regular.ttf) format('ttf');
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'JosefinSans';
+  src: local('JosefinSans'), url(./fonts/Josefin_Sans/JosefinSans-Regular.ttf) format('truetype');
 }

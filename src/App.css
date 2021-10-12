@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.fullstack-title {
+  font-family: 'PermanentMarker';
+  font-size: 3.5rem;
+}
+
+.fullstack-subTitle {
+  font-family: 'Brawler';
+  font-size: 1.75rem;
+}
+
+.introduce {
+  font-family: 'JosefinSans';
+  /* font-size: 1rem; */
+}
+
+@media only screen and (min-width: 768.1px) {
+  .fullstack-title {
+    font-size: 5rem;
+  }
+
+  .fullstack-subTitle {
+    font-size: 2.25rem
+  }
+}
+
+@media only screen and (min-width: 1200.1px) {
+  .fullstack-title {
+    font-size: 6rem;
+  }
+
+  .fullstack-subTitle {
+    font-size: 2.5rem
+  }
+}
+/* @media only screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .playfair-title {
+    font-size: 5rem;
+  }
+
+  .playfair-title-full {
+    font-size: 1rem;
+  }
+} */
