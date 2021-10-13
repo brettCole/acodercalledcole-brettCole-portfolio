@@ -1,0 +1,33 @@
+.fullstack-title {
+  font-family: 'PermanentMarker';
+  font-size: 3.5rem;
+}
+
+.fullstack-subTitle {
+  font-family: 'Brawler';
+  font-size: 1.75rem;
+}
+
+.introduce {
+  font-family: 'JosefinSans';
+}
+
+@media only screen and (min-width: 768.1px) {
+  .fullstack-title {
+    font-size: 5rem;
+  }
+
+  .fullstack-subTitle {
+    font-size: 2.25rem
+  }
+}
+
+@media only screen and (min-width: 1200.1px) {
+  .fullstack-title {
+    font-size: 6rem;
+  }
+
+  .fullstack-subTitle {
+    font-size: 2.5rem
+  }
+}

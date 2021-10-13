@@ -1,0 +1,4 @@
+.computer-screen {
+  background-image: radial-gradient(farthest-corner at 60px 50px, #434343, black);
+  height: 400px;
+}

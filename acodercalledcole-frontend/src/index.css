@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'PermanentMarker';
+  src: local('PermanentMarker'), url('./fonts/Permanent_Marker/PermanentMarker-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Brawler';
+  src: local('Brawler'), url(./fonts/Brawler/Brawler-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: local('JosefinSans'), url(./fonts/Josefin_Sans/JosefinSans-Regular.ttf) format('truetype');
+}
